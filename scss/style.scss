@@ -1,108 +1,119 @@
-* {
-    margin: 0;
-    height: 0;
-    box-sizing: border-box;
-}
+@import "./common";
 
-.map {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    width: 1110px;
-    height: 740px;
-    background: url(../img/map.jpg);
-}
-
-.map__america {
+.block {
+    width: 370px;
+    height: 370px;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #125381ac;
-    width: 370px;
-    height: 370px;
-    &_title {
+    &_america {
+        background: #18567fd3;
+    }
+    &_europe {
+        background: #7c3351cd;
+    }
+    &_asia {
+        background: #a61a1ad7;
+    }
+    &_south-america {
+        background: #18567fd3;
+    }
+    &_africa {
+        background: #efe307bd;
+    }
+    &_australia {
+        background: #ec8028b9;
+    }
+}
+
+.block {
+    &__title {
         position: absolute;
-        top: 10px;
+        top: 5px;
+        font-size: 38px;
+        font-weight: bold;
         color: white;
     }
-    &_usa {
+}
+
+.text {
+    width: 320px;
+    height: 270px;
+    &__item_icon {
+        display: flex;
+        height: 62px;
         width: 320px;
-        height: 260px;
-        background: #1e475db4;
-        &_title {
-            display: flex;
-            height: 60px;
-            &_img {
-                height: 60px;
-            }
-            &_name {
-                font-weight: bold;
-                font-size: 30px;
-                color: white;
-                margin: 15px;
-            }
+    }
+    &_img {
+        width: 100px;
+        height: 62px;
+    }
+    &_title {
+       color: white;
+       font-weight: bold;
+       font-size: 30px;
+       height: 60px;
+       width: 81px;
+       display: flex;
+       align-items: center;
+       justify-content: flex-end; 
+    }
+    &_america {
+        background: #274a61b6;
+    }
+    &_europe {
+        background: #5a275ec7;
+    }
+    &_asia {
+        background: #7d1f1c;
+    }
+    &_south-america {
+        background: #274a61b6;
+    }
+    &_africa {
+        background: #939e2fc4;
+    }
+    &_australia {
+        background: #9b733cbf;
+    }
+}
+
+.city {
+    &_container {
+        margin-top: 34px;
+        margin-left: 16px;
+        width: 160px;
+        height: 140px;
+    }
+    &__title {
+       width: 82px;
+       height: 23px; 
+       color: white;
+       font-size: 26px;
+    }
+    &__name {
+        display: flex;
+        height: 36px;
+        width: 170px;
+        &_first {
+            margin-top: 23px;
         }
-        &_text {
-            margin-top: 33px;
-            margin-left: 17px;
-            font-size: 26px;
-            color: white;
+        &_second {
+            margin-top: 13px;
         }
     }
-}
-
-.map__europe {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 370px;
-    height: 370px;
-    background: #773883b8;
-    &_france {
-        width: 320px;
-        height: 260px;
-        background: #531f5998;
+    &_img {
+        width: 57px;
+        height: 36px;
     }
-}
-
-.map__asia {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 370px;
-    height: 370px;
-    background: #a9191ec0;
-    &_china {
-        width: 320px;
-        height: 260px;
-        background: #7d1f1cb1;
+    &_markers {
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        height: 36px;
+        font-size: 21px;
+        color: white;
     }
-}
-
-.map__america_second {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 370px;
-    height: 370px;
-    background: #125381ac;
-}
-
-.map__africa {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 370px;
-    height: 370px;
-    background: #e1e11acc;
-}
-
-.map__australia {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 370px;
-    height: 370px;
-    background: #eb8028ca;
 }
