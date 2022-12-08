@@ -1,6 +1,6 @@
 @import "./common";
 
-.block {
+.region {
     width: 370px;
     height: 370px;
     position: relative;
@@ -27,7 +27,7 @@
     }
 }
 
-.block {
+.region {
     &__title {
         position: absolute;
         top: 5px;

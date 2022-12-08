@@ -21,7 +21,7 @@ li {
   background: url(../img/map.jpg);
 }
 
-.block {
+.region {
   width: 370px;
   height: 370px;
   position: relative;
@@ -35,26 +35,26 @@ li {
       -ms-flex-align: center;
           align-items: center;
 }
-.block_america {
+.region_america {
   background: rgba(24, 86, 127, 0.8274509804);
 }
-.block_europe {
+.region_europe {
   background: rgba(124, 51, 81, 0.8039215686);
 }
-.block_asia {
+.region_asia {
   background: rgba(166, 26, 26, 0.8431372549);
 }
-.block_south-america {
+.region_south-america {
   background: rgba(24, 86, 127, 0.8274509804);
 }
-.block_africa {
+.region_africa {
   background: rgba(239, 227, 7, 0.7411764706);
 }
-.block_australia {
+.region_australia {
   background: rgba(236, 128, 40, 0.7254901961);
 }
 
-.block__title {
+.region__title {
   position: absolute;
   top: 5px;
   font-size: 38px;
