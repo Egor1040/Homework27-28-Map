@@ -62,22 +62,22 @@ li {
   color: white;
 }
 
-.text {
+.country {
   width: 320px;
   height: 270px;
 }
-.text__item_icon {
+.country__item_icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   height: 62px;
   width: 320px;
 }
-.text_img {
+.country_img {
   width: 100px;
   height: 62px;
 }
-.text_title {
+.country_title {
   color: white;
   font-weight: bold;
   font-size: 30px;
@@ -93,22 +93,22 @@ li {
       -ms-flex-pack: end;
           justify-content: flex-end;
 }
-.text_america {
+.country_america {
   background: rgba(39, 74, 97, 0.7137254902);
 }
-.text_europe {
+.country_europe {
   background: rgba(90, 39, 94, 0.7803921569);
 }
-.text_asia {
+.country_asia {
   background: #7d1f1c;
 }
-.text_south-america {
+.country_south-america {
   background: rgba(39, 74, 97, 0.7137254902);
 }
-.text_africa {
+.country_africa {
   background: rgba(147, 158, 47, 0.768627451);
 }
-.text_australia {
+.country_australia {
   background: rgba(155, 115, 60, 0.7490196078);
 }
 
