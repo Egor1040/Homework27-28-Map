@@ -137,11 +137,11 @@ li {
 .city__name_second {
   margin-top: 13px;
 }
-.city_img {
+.city__name_img {
   width: 57px;
   height: 36px;
 }
-.city_markers {
+.city__name_markers {
   margin-left: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
